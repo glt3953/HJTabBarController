@@ -76,17 +76,15 @@
         
         // 设置子控制器的文字
         if (haveNavigationBar) {
-            childVc.title = titles[i]; // 同时设置tabbar和navigationBar的文字
-            // 先给外面传进来的小控制器 包装 一个导航控制器
+            childVc.title = titles[i];
+
             UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:childVc];
-            // 添加为子控制器
             [self addChildViewController:nav];
 
         }
         else
         {
             childVc.tabBarItem.title = titles[i];
-            // 添加为子控制器
             [self addChildViewController:childVc];
 
         }
@@ -95,7 +93,7 @@
 
 }
 
-#pragma mark - HWTabBarDelegate代理方法
+#pragma mark - HJTabBarDelegate代理方法
 
 - (void)tabBarDidClickPlusButton:(HJTabBar *)tabBar
 {
