@@ -1,6 +1,6 @@
 # HJTabBarController 【UITabBarController简单封装】
 
-简单易上手的UITabBarController的封装，支持自定义新浪微博中间的加号按钮
+在MJ写的TabBar的基础上简单封装，简单易上手的UITabBarController的封装，支持自定义新浪微博中间的加号按钮
 
 
 ##导航
