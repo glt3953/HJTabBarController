@@ -13,8 +13,6 @@
 		30FB86F91C3A3D72001337CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30FB86F71C3A3D72001337CD /* Main.storyboard */; };
 		30FB86FB1C3A3D72001337CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30FB86FA1C3A3D72001337CD /* Assets.xcassets */; };
 		30FB86FE1C3A3D72001337CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30FB86FC1C3A3D72001337CD /* LaunchScreen.storyboard */; };
-		30FB87091C3A3D72001337CD /* HJTabBarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB87081C3A3D72001337CD /* HJTabBarControllerTests.m */; };
-		30FB87141C3A3D72001337CD /* HJTabBarControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB87131C3A3D72001337CD /* HJTabBarControllerUITests.m */; };
 		30FB872E1C3A45FB001337CD /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB872D1C3A45FB001337CD /* TwoViewController.m */; };
 		30FB87391C3A62F3001337CD /* HJTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB87341C3A62F3001337CD /* HJTabBar.m */; };
 		30FB873A1C3A62F3001337CD /* HJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB87361C3A62F3001337CD /* HJTabBarController.m */; };
@@ -50,11 +48,7 @@
 		30FB86FD1C3A3D72001337CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30FB86FF1C3A3D72001337CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30FB87041C3A3D72001337CD /* HJTabBarControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HJTabBarControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		30FB87081C3A3D72001337CD /* HJTabBarControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJTabBarControllerTests.m; sourceTree = "<group>"; };
-		30FB870A1C3A3D72001337CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30FB870F1C3A3D72001337CD /* HJTabBarControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HJTabBarControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		30FB87131C3A3D72001337CD /* HJTabBarControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJTabBarControllerUITests.m; sourceTree = "<group>"; };
-		30FB87151C3A3D72001337CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30FB872C1C3A45FB001337CD /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
 		30FB872D1C3A45FB001337CD /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
 		30FB87331C3A62F3001337CD /* HJTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJTabBar.h; sourceTree = "<group>"; };
@@ -94,8 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				30FB86ED1C3A3D72001337CD /* HJTabBarController */,
-				30FB87071C3A3D72001337CD /* HJTabBarControllerTests */,
-				30FB87121C3A3D72001337CD /* HJTabBarControllerUITests */,
 				30FB86EC1C3A3D72001337CD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -135,24 +127,6 @@
 				30FB86EF1C3A3D72001337CD /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		30FB87071C3A3D72001337CD /* HJTabBarControllerTests */ = {
-			isa = PBXGroup;
-			children = (
-				30FB87081C3A3D72001337CD /* HJTabBarControllerTests.m */,
-				30FB870A1C3A3D72001337CD /* Info.plist */,
-			);
-			path = HJTabBarControllerTests;
-			sourceTree = "<group>";
-		};
-		30FB87121C3A3D72001337CD /* HJTabBarControllerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				30FB87131C3A3D72001337CD /* HJTabBarControllerUITests.m */,
-				30FB87151C3A3D72001337CD /* Info.plist */,
-			);
-			path = HJTabBarControllerUITests;
 			sourceTree = "<group>";
 		};
 		30FB87311C3A62F3001337CD /* HJTabBarController */ = {
@@ -320,7 +294,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30FB87091C3A3D72001337CD /* HJTabBarControllerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,7 +301,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30FB87141C3A3D72001337CD /* HJTabBarControllerUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
