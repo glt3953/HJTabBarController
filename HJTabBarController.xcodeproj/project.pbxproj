@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30FB86F01C3A3D72001337CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB86EF1C3A3D72001337CD /* main.m */; };
+		30FB86F31C3A3D72001337CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB86F21C3A3D72001337CD /* AppDelegate.m */; };
+		30FB86F61C3A3D72001337CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB86F51C3A3D72001337CD /* ViewController.m */; };
+		30FB86F91C3A3D72001337CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30FB86F71C3A3D72001337CD /* Main.storyboard */; };
+		30FB86FB1C3A3D72001337CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30FB86FA1C3A3D72001337CD /* Assets.xcassets */; };
+		30FB86FE1C3A3D72001337CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30FB86FC1C3A3D72001337CD /* LaunchScreen.storyboard */; };
+		30FB87091C3A3D72001337CD /* HJTabBarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB87081C3A3D72001337CD /* HJTabBarControllerTests.m */; };
+		30FB87141C3A3D72001337CD /* HJTabBarControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB87131C3A3D72001337CD /* HJTabBarControllerUITests.m */; };
+		30FB872E1C3A45FB001337CD /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB872D1C3A45FB001337CD /* TwoViewController.m */; };
+		30FB87391C3A62F3001337CD /* HJTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB87341C3A62F3001337CD /* HJTabBar.m */; };
+		30FB873A1C3A62F3001337CD /* HJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB87361C3A62F3001337CD /* HJTabBarController.m */; };
+		30FB873B1C3A62F3001337CD /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB87381C3A62F3001337CD /* UIView+Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30FB87051C3A3D72001337CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30FB86E31C3A3D72001337CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30FB86EA1C3A3D72001337CD;
+			remoteInfo = HJTabBarController;
+		};
+		30FB87101C3A3D72001337CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30FB86E31C3A3D72001337CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30FB86EA1C3A3D72001337CD;
+			remoteInfo = HJTabBarController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30FB86EB1C3A3D72001337CD /* HJTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HJTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30FB86EF1C3A3D72001337CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30FB86F11C3A3D72001337CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		30FB86F21C3A3D72001337CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		30FB86F41C3A3D72001337CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		30FB86F51C3A3D72001337CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		30FB86F81C3A3D72001337CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30FB86FA1C3A3D72001337CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30FB86FD1C3A3D72001337CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30FB86FF1C3A3D72001337CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30FB87041C3A3D72001337CD /* HJTabBarControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HJTabBarControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30FB87081C3A3D72001337CD /* HJTabBarControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJTabBarControllerTests.m; sourceTree = "<group>"; };
+		30FB870A1C3A3D72001337CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30FB870F1C3A3D72001337CD /* HJTabBarControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HJTabBarControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30FB87131C3A3D72001337CD /* HJTabBarControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJTabBarControllerUITests.m; sourceTree = "<group>"; };
+		30FB87151C3A3D72001337CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30FB872C1C3A45FB001337CD /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		30FB872D1C3A45FB001337CD /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		30FB87331C3A62F3001337CD /* HJTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJTabBar.h; sourceTree = "<group>"; };
+		30FB87341C3A62F3001337CD /* HJTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJTabBar.m; sourceTree = "<group>"; };
+		30FB87351C3A62F3001337CD /* HJTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJTabBarController.h; sourceTree = "<group>"; };
+		30FB87361C3A62F3001337CD /* HJTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJTabBarController.m; sourceTree = "<group>"; };
+		30FB87371C3A62F3001337CD /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		30FB87381C3A62F3001337CD /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30FB86E81C3A3D72001337CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30FB87011C3A3D72001337CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30FB870C1C3A3D72001337CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30FB86E21C3A3D72001337CD = {
+			isa = PBXGroup;
+			children = (
+				30FB86ED1C3A3D72001337CD /* HJTabBarController */,
+				30FB87071C3A3D72001337CD /* HJTabBarControllerTests */,
+				30FB87121C3A3D72001337CD /* HJTabBarControllerUITests */,
+				30FB86EC1C3A3D72001337CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30FB86EC1C3A3D72001337CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30FB86EB1C3A3D72001337CD /* HJTabBarController.app */,
+				30FB87041C3A3D72001337CD /* HJTabBarControllerTests.xctest */,
+				30FB870F1C3A3D72001337CD /* HJTabBarControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30FB86ED1C3A3D72001337CD /* HJTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				30FB87311C3A62F3001337CD /* HJTabBarController */,
+				30FB86F11C3A3D72001337CD /* AppDelegate.h */,
+				30FB86F21C3A3D72001337CD /* AppDelegate.m */,
+				30FB872C1C3A45FB001337CD /* TwoViewController.h */,
+				30FB872D1C3A45FB001337CD /* TwoViewController.m */,
+				30FB86F41C3A3D72001337CD /* ViewController.h */,
+				30FB86F51C3A3D72001337CD /* ViewController.m */,
+				30FB86F71C3A3D72001337CD /* Main.storyboard */,
+				30FB86FA1C3A3D72001337CD /* Assets.xcassets */,
+				30FB86FC1C3A3D72001337CD /* LaunchScreen.storyboard */,
+				30FB86FF1C3A3D72001337CD /* Info.plist */,
+				30FB86EE1C3A3D72001337CD /* Supporting Files */,
+			);
+			path = HJTabBarController;
+			sourceTree = "<group>";
+		};
+		30FB86EE1C3A3D72001337CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30FB86EF1C3A3D72001337CD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30FB87071C3A3D72001337CD /* HJTabBarControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				30FB87081C3A3D72001337CD /* HJTabBarControllerTests.m */,
+				30FB870A1C3A3D72001337CD /* Info.plist */,
+			);
+			path = HJTabBarControllerTests;
+			sourceTree = "<group>";
+		};
+		30FB87121C3A3D72001337CD /* HJTabBarControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30FB87131C3A3D72001337CD /* HJTabBarControllerUITests.m */,
+				30FB87151C3A3D72001337CD /* Info.plist */,
+			);
+			path = HJTabBarControllerUITests;
+			sourceTree = "<group>";
+		};
+		30FB87311C3A62F3001337CD /* HJTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				30FB87321C3A62F3001337CD /* HJTabBar */,
+				30FB87351C3A62F3001337CD /* HJTabBarController.h */,
+				30FB87361C3A62F3001337CD /* HJTabBarController.m */,
+				30FB87371C3A62F3001337CD /* UIView+Extension.h */,
+				30FB87381C3A62F3001337CD /* UIView+Extension.m */,
+			);
+			path = HJTabBarController;
+			sourceTree = "<group>";
+		};
+		30FB87321C3A62F3001337CD /* HJTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				30FB87331C3A62F3001337CD /* HJTabBar.h */,
+				30FB87341C3A62F3001337CD /* HJTabBar.m */,
+			);
+			path = HJTabBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30FB86EA1C3A3D72001337CD /* HJTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30FB87181C3A3D72001337CD /* Build configuration list for PBXNativeTarget "HJTabBarController" */;
+			buildPhases = (
+				30FB86E71C3A3D72001337CD /* Sources */,
+				30FB86E81C3A3D72001337CD /* Frameworks */,
+				30FB86E91C3A3D72001337CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HJTabBarController;
+			productName = HJTabBarController;
+			productReference = 30FB86EB1C3A3D72001337CD /* HJTabBarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30FB87031C3A3D72001337CD /* HJTabBarControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30FB871B1C3A3D72001337CD /* Build configuration list for PBXNativeTarget "HJTabBarControllerTests" */;
+			buildPhases = (
+				30FB87001C3A3D72001337CD /* Sources */,
+				30FB87011C3A3D72001337CD /* Frameworks */,
+				30FB87021C3A3D72001337CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30FB87061C3A3D72001337CD /* PBXTargetDependency */,
+			);
+			name = HJTabBarControllerTests;
+			productName = HJTabBarControllerTests;
+			productReference = 30FB87041C3A3D72001337CD /* HJTabBarControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30FB870E1C3A3D72001337CD /* HJTabBarControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30FB871E1C3A3D72001337CD /* Build configuration list for PBXNativeTarget "HJTabBarControllerUITests" */;
+			buildPhases = (
+				30FB870B1C3A3D72001337CD /* Sources */,
+				30FB870C1C3A3D72001337CD /* Frameworks */,
+				30FB870D1C3A3D72001337CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30FB87111C3A3D72001337CD /* PBXTargetDependency */,
+			);
+			name = HJTabBarControllerUITests;
+			productName = HJTabBarControllerUITests;
+			productReference = 30FB870F1C3A3D72001337CD /* HJTabBarControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30FB86E31C3A3D72001337CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "https://github.com/CoderHJZhao";
+				TargetAttributes = {
+					30FB86EA1C3A3D72001337CD = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					30FB87031C3A3D72001337CD = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 30FB86EA1C3A3D72001337CD;
+					};
+					30FB870E1C3A3D72001337CD = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 30FB86EA1C3A3D72001337CD;
+					};
+				};
+			};
+			buildConfigurationList = 30FB86E61C3A3D72001337CD /* Build configuration list for PBXProject "HJTabBarController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30FB86E21C3A3D72001337CD;
+			productRefGroup = 30FB86EC1C3A3D72001337CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30FB86EA1C3A3D72001337CD /* HJTabBarController */,
+				30FB87031C3A3D72001337CD /* HJTabBarControllerTests */,
+				30FB870E1C3A3D72001337CD /* HJTabBarControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30FB86E91C3A3D72001337CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30FB86FE1C3A3D72001337CD /* LaunchScreen.storyboard in Resources */,
+				30FB86FB1C3A3D72001337CD /* Assets.xcassets in Resources */,
+				30FB86F91C3A3D72001337CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30FB87021C3A3D72001337CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30FB870D1C3A3D72001337CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30FB86E71C3A3D72001337CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30FB872E1C3A45FB001337CD /* TwoViewController.m in Sources */,
+				30FB873A1C3A62F3001337CD /* HJTabBarController.m in Sources */,
+				30FB86F61C3A3D72001337CD /* ViewController.m in Sources */,
+				30FB873B1C3A62F3001337CD /* UIView+Extension.m in Sources */,
+				30FB86F31C3A3D72001337CD /* AppDelegate.m in Sources */,
+				30FB86F01C3A3D72001337CD /* main.m in Sources */,
+				30FB87391C3A62F3001337CD /* HJTabBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30FB87001C3A3D72001337CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30FB87091C3A3D72001337CD /* HJTabBarControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30FB870B1C3A3D72001337CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30FB87141C3A3D72001337CD /* HJTabBarControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30FB87061C3A3D72001337CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30FB86EA1C3A3D72001337CD /* HJTabBarController */;
+			targetProxy = 30FB87051C3A3D72001337CD /* PBXContainerItemProxy */;
+		};
+		30FB87111C3A3D72001337CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30FB86EA1C3A3D72001337CD /* HJTabBarController */;
+			targetProxy = 30FB87101C3A3D72001337CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30FB86F71C3A3D72001337CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30FB86F81C3A3D72001337CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30FB86FC1C3A3D72001337CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30FB86FD1C3A3D72001337CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30FB87161C3A3D72001337CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30FB87171C3A3D72001337CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30FB87191C3A3D72001337CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HJTabBarController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HJ.HJTabBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		30FB871A1C3A3D72001337CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HJTabBarController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HJ.HJTabBarController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		30FB871C1C3A3D72001337CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HJTabBarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HJ.HJTabBarControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HJTabBarController.app/HJTabBarController";
+			};
+			name = Debug;
+		};
+		30FB871D1C3A3D72001337CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HJTabBarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HJ.HJTabBarControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HJTabBarController.app/HJTabBarController";
+			};
+			name = Release;
+		};
+		30FB871F1C3A3D72001337CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HJTabBarControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HJ.HJTabBarControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HJTabBarController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		30FB87201C3A3D72001337CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HJTabBarControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HJ.HJTabBarControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HJTabBarController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30FB86E61C3A3D72001337CD /* Build configuration list for PBXProject "HJTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30FB87161C3A3D72001337CD /* Debug */,
+				30FB87171C3A3D72001337CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		30FB87181C3A3D72001337CD /* Build configuration list for PBXNativeTarget "HJTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30FB87191C3A3D72001337CD /* Debug */,
+				30FB871A1C3A3D72001337CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		30FB871B1C3A3D72001337CD /* Build configuration list for PBXNativeTarget "HJTabBarControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30FB871C1C3A3D72001337CD /* Debug */,
+				30FB871D1C3A3D72001337CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		30FB871E1C3A3D72001337CD /* Build configuration list for PBXNativeTarget "HJTabBarControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30FB871F1C3A3D72001337CD /* Debug */,
+				30FB87201C3A3D72001337CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30FB86E31C3A3D72001337CD /* Project object */;
+}
